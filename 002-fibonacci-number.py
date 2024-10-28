@@ -17,6 +17,6 @@ def nth_fibo(n):
 
 
 
-n=int(input("enter input\n"))
+n = int(input("enter input\n"))
 print("output is" ,nth_fibo(n))
 
