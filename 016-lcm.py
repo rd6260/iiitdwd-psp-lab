@@ -13,7 +13,7 @@ def hcf(a, b):
 
 
 def lcm(num1,num2):
-    a = (num1*num2) / gcd(num1,num2)
+    a = (num1*num2) / hcf(num1,num2)
     print(f"The LCM of {num1}, {num2} is {a}")
 
 
